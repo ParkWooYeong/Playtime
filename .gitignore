@@ -1,0 +1,21 @@
+# --- Python / Django ---
+*.pyc
+__pycache__/
+db.sqlite3
+.venv/
+venv/
+env/
+.env
+
+# --- React / Frontend ---
+front/node_modules/
+front/build/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- API Keys & Secrets ---
+# API 키가 들어있는 파일이 있다면 반드시 제외해야 합니다.
+secrets.json
+key.txt
