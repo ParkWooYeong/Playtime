@@ -26,3 +26,9 @@
 프로젝트 최상위 폴더에 `.env` 파일을 생성하고 스팀 API 키를 입력합니다.
 ```text
 STEAM_API_KEY=your_api_key_here
+
+
+### 2. 백엔드 실행
+cd front
+npm install
+npm start
