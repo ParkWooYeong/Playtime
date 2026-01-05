@@ -7,24 +7,22 @@
 
 ---
 
-🛠 사용 기술 스택
-Frontend
-React, Axios, CSS3
+##  사용 기술 스택
 
-Backend
-Django, Python
+### Frontend
+* **React**: UI 컴포넌트 기반 개발
+* **Axios**: 백엔드 API 통신
+* **CSS3**: 커스텀 다크 테마 및 애니메이션
 
-🚀 시작하기
-1. 환경 설정 프로젝트 최상위 폴더에 .env 파일을 생성하고 아래와 같이 스팀 API 키를 입력합니다.
+### Backend
+* **Django**: RESTful API 서버 구축
+* **Python**: Steam API 데이터 가공 및 서빙
 
-Plaintext
+---
 
+##  시작하기
+
+### 1. 환경 설정
+프로젝트 최상위 폴더에 `.env` 파일을 생성하고 스팀 API 키를 입력합니다.
+```text
 STEAM_API_KEY=your_api_key_here
-2. 백엔드 실행 ```bash python manage.py runserver
-
-
-**3. 프론트엔드 실행** ```bash
-cd front
-npm start
-👤 Author
-uyeon - GitHub Profile
