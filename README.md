@@ -6,6 +6,7 @@
 
 직관적인 연결: 아이콘 하나로 스팀 상점 페이지에 바로 접속하거나 유저 프로필로 이동할 수 있습니다.
 
+
 ---
 
 ##  사용 기술 스택
@@ -33,11 +34,21 @@ STEAM_API_KEY=your_api_key_here
 cd backend
 python manage.py runserver
 ```
-### 프론트엔드 실행
+### 3.프론트엔드 실행
 ```
 cd front
 npm install
 npm start
 ```
 
+### 1. 준비 단계
 
+프로젝트 폴더에 .env 파일을 만들고 본인의 스팀 API 키를 입력합니다.
+
+### 2. 서버 켜기 (Django)
+
+python manage.py runserver 명령어를 입력합니다.
+
+### 3. 화면 켜기 (React)
+
+front 폴더로 이동하여 npm start 명령어를 입력합니다.
